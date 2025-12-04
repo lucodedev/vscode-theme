@@ -1,4 +1,15 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+# Files to include in the extension package
+# Documentation for this format:
+# https://code.visualstudio.com/api/working-with-extensions/publishing-extension#using-.vscodeignore
+
+# Files for vscode extension
+!LICENSE
+!README.md
+!logo.png
+!package.json
+
+# themes
+!themes
+
+# Exclude everything else
+**/*
