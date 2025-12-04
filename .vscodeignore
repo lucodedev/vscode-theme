@@ -4,7 +4,7 @@
 
 # Files for vscode extension
 !LICENSE
-!README.md
+!readme.md
 !logo.png
 !package.json
 

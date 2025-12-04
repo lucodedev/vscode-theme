@@ -20,7 +20,7 @@
     "email": "lucas@lucode.dev",
     "url": "https://lucode.dev"
   },
-  "homepage": "https://github.com/lucodedev/vscode-theme/blob/master/README.md",
+  "homepage": "https://github.com/lucodedev/vscode-theme/blob/master/readme.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucodedev/snippets.git"
