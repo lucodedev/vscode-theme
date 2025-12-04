@@ -3,7 +3,7 @@
   "displayName": "Lucode's Themes",
   "description": "Lucode's Vscode Color Theme",
   "version": "0.0.1",
-  "icon": "icon.png",
+  "icon": "logo.png",
   "license": "MIT",
   "scripts": {
     "build": "bun run scripts/build.ts",
