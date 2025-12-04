@@ -9,7 +9,10 @@
     "build": "bun run scripts/build.ts",
     "watch": "bun --watch run scripts/build.ts",
     "vscode:prepublish": "bun run build",
-    "publish": "vsce package; vsce publish"
+    "vscode-publish": "vsce package; vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
   },
   "publisher": "lucaslabs",
   "author": {
