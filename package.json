@@ -1,0 +1,60 @@
+{
+  "name": "lucode-themes",
+  "displayName": "Lucode's Themes",
+  "description": "Lucode's Vscode Color Theme",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "license": "MIT",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "watch": "bun --watch run scripts/build.ts",
+    "vscode:prepublish": "bun run build",
+    "publish": "vsce package; vsce publish"
+  },
+  "publisher": "lucaslabs",
+  "author": {
+    "name": "Lucas Colombo",
+    "email": "lucas@lucode.dev",
+    "url": "https://lucode.dev"
+  },
+  "homepage": "https://github.com/lucodedev/vscode-theme/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucodedev/snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucodedev/snippets/issues"
+  },
+  "galleryBanner": {
+    "color": "#11131c",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Lucode",
+    "Themes"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Lucode's Forest Dusk",
+        "label": "Forest Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/forest-dusk-color-theme.json"
+      },
+      {
+        "id": "Lucode's Forest Dusk Intense",
+        "label": "Forest Dusk Intense",
+        "uiTheme": "vs-dark",
+        "path": "./themes/forest-dusk-intense-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "prettier": "^3.7.4",
+    "typescript": "^5"
+  }
+}
