@@ -121,6 +121,7 @@ const tokenColorsReplacement = {
 export default {
   name: 'Forest Dusk',
   type: 'dark',
+  semanticHighlighting: true,
   colors,
   tokenColorsReplacement,
 } satisfies Theme;

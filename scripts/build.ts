@@ -25,6 +25,7 @@ const buildThemes = () => {
       $schema: 'vscode://schemas/color-theme',
       type: theme.type,
       name: theme.name,
+      semanticHighlighting: theme.semanticHighlighting ?? false,
       colors: theme.colors,
       tokenColors: defaults.tokenColors(theme.tokenColorsReplacement),
     };

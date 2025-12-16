@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "name": "Forest Dusk Intense",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#262626",
     "activityBar.border": "#ffffff10",

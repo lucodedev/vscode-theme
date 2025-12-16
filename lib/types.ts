@@ -13,6 +13,7 @@ export interface VSCodeTheme {
   $schema?: string;
   type?: 'dark' | 'light' | 'hc';
   name?: string;
+  semanticHighlighting?: boolean;
   colors?: Partial<Record<ColorKey, string>>;
   tokenColors?: TokenColor[];
 }
@@ -45,6 +46,7 @@ export type TokenColorsTheme = {
 export interface Theme {
   name: string;
   type: 'dark' | 'light' | 'hc';
+  semanticHighlighting?: boolean;
   colors: Partial<Record<ColorKey, string>>;
   tokenColorsReplacement?: Partial<TokenColorsTheme>;
 }
