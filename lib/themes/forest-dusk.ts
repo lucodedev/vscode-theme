@@ -110,7 +110,7 @@ const tokenColorsReplacement = {
   lightBlue: '#80b4df',
   green: '#77aa88',
   white: '#ffff',
-  darkGray: '#504b4b',
+  darkGray: '#7b7474',
   midGray: '#948f89',
   red: '#ff6666',
   darkRed: '#be5046',

@@ -1,4 +1,4 @@
-import type { Theme, TokenColor, TokenColorsTheme } from '@/types';
+import type { TokenColor, TokenColorsTheme } from '@/types';
 
 export const defaultThemeColors: TokenColorsTheme = {
   gray: '#abb2bf',
@@ -10,8 +10,8 @@ export const defaultThemeColors: TokenColorsTheme = {
   lightBlue: '#61afef',
   green: '#98c379',
   white: '#ffffff',
-  darkGray: '#5c6370',
-  midGray: '#7f848e',
+  darkGray: '#8c7d7d',
+  midGray: '#9f9393',
   red: '#f44747',
   darkRed: '#be5046',
   purple: '#996ddd',
